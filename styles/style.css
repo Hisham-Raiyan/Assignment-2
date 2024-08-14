@@ -231,3 +231,35 @@ header{
     font-size: 14px;
     margin-top: 4%;
 }
+
+.run {
+    background-color: #222222;
+    padding: 30px 32px 30px 54px;
+    margin-top: 10%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.run-text {
+    width: 443px;
+}
+
+.run-text > p {
+    margin-top: 14px;
+}
+
+.run-text > button {
+    margin-top: 34px;
+}
+
+.run-img {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    background-image: url("../assets/run.jpg");
+    background-repeat: no-repeat;
+    background-size: 330%;
+    background-position-x: 68%;
+    background-position-y: 30%;
+}
