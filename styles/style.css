@@ -353,3 +353,72 @@ header{
 .bmi-calculation button {
     margin-top: 6%;
 }
+
+.team {
+    margin-top: 4%;
+}
+
+.team-title {
+    width: 670px;
+    text-align: center;
+}
+
+.team-title p {
+    margin-top: 3%;
+}
+
+.team-members {
+    border-radius: 18px;
+    background: #ffffff1a;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+    margin-top: 5%;
+}
+
+.members {
+    width: 327px;
+    height: 272px;
+    border-radius: 18px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.member-1 {
+    background-image: url("../assets/trainer1.png");
+}
+
+.member-2 {
+    background-image: url("../assets/trainer2.png");
+}
+
+.member-3 {
+    background-image: url("../assets/trainer3.png");
+}
+
+.member-4 {
+    background-image: url("../assets/trainer4.png");
+}
+
+.member-5 {
+    background-image: url("../assets/trainer5.png");
+}
+
+.member-6 {
+    background-image: url("../assets/trainer6.png");
+}
+
+.name {
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+.name p {
+    font-size: 500;
+}
