@@ -178,3 +178,56 @@ header{
     margin-bottom: 8px;
 }
 
+.black {
+    background: #000000;
+}
+
+
+.habit-title {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.title-content {
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+.habit-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 58px;
+    gap: 40px;
+}
+
+.habit-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.habit-image > img {
+    border-radius: 50%;
+    border: 4px solid #4342427e;
+}
+
+.habit-content {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.habit-content > h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.habit-content > p {
+    font-size: 14px;
+    margin-top: 4%;
+}
