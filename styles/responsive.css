@@ -26,6 +26,10 @@
         height: 54px;
     }
 
+    .run-text .btn{
+        width: 290px;
+    }
+
     .title {
         font-size: 32px;
     }
@@ -79,7 +83,7 @@
     }
 
     #three-fifty {
-        font-size: 18px;
+        font-size: 25px;
     }
 
     .habit-content {
