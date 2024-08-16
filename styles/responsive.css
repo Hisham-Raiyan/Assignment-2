@@ -1,0 +1,173 @@
+@media screen and (max-width: 576px) {
+
+
+.max-width {
+        max-width: 350px;
+    }
+
+    .bn-container, .run, .bmi-calculator {
+        flex-direction: column;
+    }
+
+    .habit-cards, .team-members, .time-schedule, .fitness {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .ham-btn {
+        display: block;
+    }
+
+    .btn {
+        width: 165px;
+        height: 54px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
+    .calc-title {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .title-content {
+        font-size: 14px;
+    }
+
+    .bn-title {
+        font-size: 32px;
+    }
+
+    #shape {
+        font-size: 80px;
+    }
+
+    .bn-btn {
+        display: flex;
+    }
+
+    .bn-image {
+        width: 353px;
+        height: 588px;
+        margin-top: 8%;
+    }
+
+    .bn-card-1 {
+        width: 191px;
+        height: 80px;
+        padding: 16px 16px;
+        top: 65px;
+        left: 200px;
+    }
+
+    #five-hundred {
+        font-size: 25px;
+    }
+
+    .bn-card-2 {
+        width: 185px;
+        height: 80px;
+        padding: 11px 16px;
+        position: absolute;
+        top: 230px;
+        right: 200px;
+    }
+
+    #three-fifty {
+        font-size: 18px;
+    }
+
+    .habit-content {
+        margin-top: 3%;
+    }
+
+    .run {
+        padding: 30px 33px;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .run-text {
+        width: 287px;
+    }
+
+    .run-img {
+        width: 287px;
+        height: 170px;
+    }
+
+    .bmi-calculator {
+        gap: 42px;
+    }
+
+    .bmi-title {
+        width: 350px;
+    }
+
+    .bmi-chart > h2 {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .bmi-table {
+        margin-top: 23px;
+    }
+
+    .bmi-form {
+        width: 353px;
+        height: 358px;
+    }
+
+    .bmi-form > h2 {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .bmi-form > p {
+        font-size: 14px;
+    }
+
+    .bmi-calculation input[type="text"], select {
+        width: 170px;
+        height: 48px;
+    }
+
+    .bmi-calculation #activity {
+        width: 100%;
+    }
+
+    .team {
+        margin-top: 20%;
+    }
+
+    .team-members {
+        margin-top: 10%;
+    }
+
+    .team-title {
+        width: 309px;
+    }
+
+    .team-title p {
+        margin-top: 5%;
+    }
+
+    .members {
+        width: 313px;
+    }
+
+    .fitness {
+        gap: 30px;
+    }
+
+    .fitness-title {
+        width: 317px;
+    }
+}
+  
